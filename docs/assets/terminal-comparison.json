@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "capture": "Actual X11 terminal screen recordings of separately executed laptop sessions",
+  "scope": "Processing and lossless PGM/PNG export, full native command through exit",
+  "slice_count": 460,
+  "files_per_run": 1380,
+  "outputs_byte_identical": true,
+  "warmups_per_configuration": 1,
+  "binary_sha256": "a099d128b6e35f7af68291b78a35976ba1641c6282dfaf1cca520f52f7940001",
+  "input_manifest_sha256": "65263ca665603f22127de8bd78d4e6b1848c584725b9a237462cfb0ff448bd59",
+  "power_state": {
+    "ACAD/online": "1"
+  },
+  "gpu": "NVIDIA GeForce MX450, 610.43.02",
+  "runs": [
+    {
+      "threads": 1,
+      "wall_seconds": 29.32,
+      "internal_elapsed_seconds": 28.921701309,
+      "completed_slices": 460,
+      "exported_files": 1380,
+      "report_sha256": "28498022db24ad803361dec1234c663b10d3d76df0f31c62c68a519141bb88c3",
+      "transcript_sha256": "856f9498a47049b5eab2b66eb4b6604db063331fd36b6e64e5926694548089c3",
+      "terminal_timing_sha256": "f1f9dc74657d547cf03f1c397908bc9b3230c8ffa89b947811c977009fd8ee2a",
+      "warmup_report_sha256": "19c3f0b232084c54adcb39f89f77fb79d1235cc134be09fae916df85e394dd79",
+      "export_manifest_sha256": "665bd0576058df08821ab2239e8092f78d182b34bb7b752c5586e405981a3df0",
+      "raw_video_sha256": "98a93db2d0025ca5a67765a610a9e3a1a6861a9278368b69b8d894b853388a83"
+    },
+    {
+      "threads": 8,
+      "wall_seconds": 9.61,
+      "internal_elapsed_seconds": 8.018092456,
+      "completed_slices": 460,
+      "exported_files": 1380,
+      "report_sha256": "51a188619ad99eba5a65213f3c1e58271349a5e8eedf1578225844d1d82710d5",
+      "transcript_sha256": "decf4f59d59528c77b4f11d23a099c6e296ce38588973f4d2c76808b5e68fe6e",
+      "terminal_timing_sha256": "98d7858cde6ea50af462018fbbc30bd10929efdc2d15d1c33630996511d17253",
+      "warmup_report_sha256": "2d8e2d3d57c9b07b159458ca445f2b59f1e43c929864b63b173b6daef3a5f659",
+      "export_manifest_sha256": "665bd0576058df08821ab2239e8092f78d182b34bb7b752c5586e405981a3df0",
+      "raw_video_sha256": "7d1ce84286efc5f18c579e3f393c36a04fd4a4c7e2871fa014ebfdfec660c7c8"
+    }
+  ],
+  "composition": {
+    "playback_speed": 1,
+    "raw_videos_cut_or_retimed": false,
+    "shorter_pane": "Final recorded frame held until the longer session ends",
+    "duration_seconds": 40.1,
+    "width": 2004,
+    "height": 1136,
+    "comparison_video_sha256": "a77b7218381dedc9d82a49d58d3abd850ef5d02992cdc1a39350546394e76a36"
+  }
+}

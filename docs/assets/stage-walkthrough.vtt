@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+Original MRI: The original capstone T1 post-contrast brain MRI is imported from DICOM.
+
+00:00:04.000 --> 00:00:08.000
+Normalization: FAST maps the fixed input intensity range into 0.5 to 2.5.
+
+00:00:08.000 --> 00:00:12.000
+Clipping: Intensities are bounded after normalization.
+
+00:00:12.000 --> 00:00:16.000
+Median filter: A seven-pixel window suppresses isolated intensity variation.
+
+00:00:16.000 --> 00:00:20.000
+Sharpening: FAST enhances local contrast with the shared pipeline parameters.
+
+00:00:20.000 --> 00:00:24.000
+Seeded region growing: Dimension-based seeds and fixed intensity bounds form an experimental mask.
+
+00:00:24.000 --> 00:00:28.000
+Erosion branch: A separate erosion branch shrinks the region-growing mask.
+
+00:00:28.000 --> 00:00:32.000
+Dilation output: Dilation expands the un-eroded region-growing mask. This is the batch output, not a validated tumor segmentation.

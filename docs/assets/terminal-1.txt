@@ -1,0 +1,41 @@
+Script started on 2026-10-02 11:17:42+00:00 [COMMAND="/bin/bash --noprofile --norc -i" TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="88" LINES="40"]
+caleb2002@CalebLaptop:omp-1$
+
+caleb2002@CalebLaptop:omp-1$ find "$CAPSTONE_DATA" -name "*.dcm" |
+ wc -l
+
+460
+caleb2002@CalebLaptop:omp-1$ date -u
+
+Fri Oct  2 11:17:45 AM UTC 2026
+caleb2002@CalebLaptop:omp-1$ OMP_WAIT_POLICY=PASSIVE \
+
+>   /usr/bin/time -p ./img_processing_parallel \
+
+>   --input "$CAPSTONE_DATA" --threads 1 \
+
+>   --batch-size 64 --output exports \
+
+>   --export-previews --report run-1.json
+
+WARNING [131301618146944] Unable to open X display. Disabling visualization.
+
+     - Powered by -
+   _______   __________
+  / __/ _ | / __/_  __/   https://fast.eriksmistad.no
+ / _// __ |_\ \  / /               v4.10.0
+/_/ /_/ |_/___/ /_/
+
+Completed 460/460 slices in 28.922 s; 1 worker(s); mask export on
+real 29.32
+user 28.74
+sys 0.52
+caleb2002@CalebLaptop:omp-1$ echo "Exit status: $?"
+
+Exit status: 0
+caleb2002@CalebLaptop:omp-1$ find exports -type f | wc -l
+
+1380
+caleb2002@CalebLaptop:omp-1$
+
+exit

@@ -1,0 +1,13 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+Actual terminal screen recordings. Both sessions verify 460 input slices and type the native command.
+
+00:00:04.000 --> 00:00:16.000
+The same processing and lossless-export command runs with one or eight threads. Sessions execute separately on the laptop.
+
+00:00:16.000 --> 00:00:36.000
+Eight threads finish in 9.61 seconds, with exit status zero and 1,380 files. Its final recorded frame holds while the one-thread run continues.
+
+00:00:36.000 --> 00:00:40.100
+One thread finishes in 29.32 seconds. Both complete all 460 slices. These capture times are separate from the repeated benchmark’s 3.15-times throughput result.

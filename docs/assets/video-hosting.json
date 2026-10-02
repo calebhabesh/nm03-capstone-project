@@ -1,0 +1,18 @@
+{
+  "repository": "calebhabesh/NM03-Capstone-Project",
+  "purpose": "GitHub README players; committed MP4s are the source files.",
+  "videos": [
+    {
+      "path": "docs/assets/throughput-comparison.mp4",
+      "url": "https://github.com/user-attachments/assets/395b7057-5183-47fe-9871-762cc745681e",
+      "sha256": "a77b7218381dedc9d82a49d58d3abd850ef5d02992cdc1a39350546394e76a36",
+      "bytes": 996895
+    },
+    {
+      "path": "docs/assets/stage-walkthrough.mp4",
+      "url": "https://github.com/user-attachments/assets/78fcd69a-8ee5-4aea-88cd-732545ca662e",
+      "sha256": "a6d971ec745e6979c6d285abc9f65b999925831bd693e2f7f42c81994c46e539",
+      "bytes": 422725
+    }
+  ]
+}

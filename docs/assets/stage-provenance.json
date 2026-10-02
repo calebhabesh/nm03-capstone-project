@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "source_collection": "TCIA Brain-Tumor-Progression",
+  "source_doi": "10.7937/K9/TCIA.2018.15quzvnb",
+  "input_sha256": "3b833ca048baf3c9725675703ef41ec0c557e1f0a66903b6388fb2f98edf53f7",
+  "input_matches_original_2025_demo": true,
+  "input_in_460_slice_benchmark": true,
+  "modality": "MR",
+  "rows": 512,
+  "columns": 512,
+  "demo_scope": "Real original capstone scan; actual FAST filter outputs, shown after processing; playback timing is not a benchmark.",
+  "source_sha256": {
+    "src/test/test_pipeline.cpp": "2d29fb1dac2793ffb3897b86f000e9e1db1209a215b3eb4bedab698090d666cf",
+    "src/common/pipeline.cpp": "7850a8a52b4d81c4cca6c6b698438e3e5cd1e9412288e41c6cf407c2d4235c28",
+    "src/include/pipeline.hpp": "08bfab04f19b2747fae31827e99a1ba6a6987f10251e7f8e19c8d72b15d3c09e"
+  },
+  "video_sha256": "a6d971ec745e6979c6d285abc9f65b999925831bd693e2f7f42c81994c46e539"
+}

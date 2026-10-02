@@ -1,0 +1,2 @@
+# Raw terminal recordings retain carriage returns and ANSI control sequences.
+docs/assets/terminal-*.log -text -diff
