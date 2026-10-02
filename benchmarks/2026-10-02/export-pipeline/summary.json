@@ -1,0 +1,57 @@
+[
+  {
+    "configuration": "sequential",
+    "threads": 1,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 29.316484298000432,
+    "min_seconds": 28.865955336999832,
+    "max_seconds": 29.467093100000056,
+    "speedup": 0.986373164226009,
+    "elapsed_reduction_percent": -1.381509176061546
+  },
+  {
+    "configuration": "omp-1",
+    "threads": 1,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 28.916993381000793,
+    "min_seconds": 28.767954375000045,
+    "max_seconds": 29.17763463600022,
+    "speedup": 1.0,
+    "elapsed_reduction_percent": 0.0
+  },
+  {
+    "configuration": "omp-2",
+    "threads": 2,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 15.963327243000094,
+    "min_seconds": 15.0901877590004,
+    "max_seconds": 16.062865161000445,
+    "speedup": 1.8114640476145643,
+    "elapsed_reduction_percent": 44.796033831482596
+  },
+  {
+    "configuration": "omp-4",
+    "threads": 4,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 10.032158588999664,
+    "min_seconds": 9.632846817999962,
+    "max_seconds": 10.133562638999138,
+    "speedup": 2.8824298504121026,
+    "elapsed_reduction_percent": 65.30704815393757
+  },
+  {
+    "configuration": "omp-8",
+    "threads": 8,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 9.181703188000029,
+    "min_seconds": 8.981314987000587,
+    "max_seconds": 9.331212833998507,
+    "speedup": 3.1494149602650716,
+    "elapsed_reduction_percent": 68.24807106663917
+  }
+]

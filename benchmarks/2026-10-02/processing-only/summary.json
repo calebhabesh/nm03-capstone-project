@@ -1,0 +1,57 @@
+[
+  {
+    "configuration": "sequential",
+    "threads": 1,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 8.63114320800014,
+    "min_seconds": 8.57954335300019,
+    "max_seconds": 8.679661796999426,
+    "speedup": 1.0056309219797197,
+    "elapsed_reduction_percent": 0.5599392238888723
+  },
+  {
+    "configuration": "omp-1",
+    "threads": 1,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 8.679744502000176,
+    "min_seconds": 8.630552062000788,
+    "max_seconds": 8.682499556000039,
+    "speedup": 1.0,
+    "elapsed_reduction_percent": 0.0
+  },
+  {
+    "configuration": "omp-2",
+    "threads": 2,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 8.678798151999217,
+    "min_seconds": 8.629860697999902,
+    "max_seconds": 8.731526667999788,
+    "speedup": 1.0001090415958966,
+    "elapsed_reduction_percent": 0.010902970712334259
+  },
+  {
+    "configuration": "omp-4",
+    "threads": 4,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 8.630533106001167,
+    "min_seconds": 8.628240596999603,
+    "max_seconds": 8.782255251000606,
+    "speedup": 1.0057020111497852,
+    "elapsed_reduction_percent": 0.5669682556631583
+  },
+  {
+    "configuration": "omp-8",
+    "threads": 8,
+    "runs": 5,
+    "baseline": "omp-1",
+    "median_seconds": 8.630218767999395,
+    "min_seconds": 8.628875685000821,
+    "max_seconds": 8.679043108999394,
+    "speedup": 1.0057386417809502,
+    "elapsed_reduction_percent": 0.5705897678136562
+  }
+]
