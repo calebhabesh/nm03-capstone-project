@@ -1,5 +1,10 @@
 # Build directory
 build/
+build-*/
+out-refresh/
+benchmarks/local/
+__pycache__/
+*.pyc
 out-test/
 out-sequential/
 out-parallel/
@@ -49,4 +54,3 @@ sequential_results.json
 # System files
 .DS_Store
 Thumbs.db
-
