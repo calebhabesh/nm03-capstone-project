@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/395b7057-5183-47fe-9871-762cc745681e
 
 Visible single-run times are **29.32 and 9.61 seconds**. The repeated benchmark remains **28.92 → 9.18 seconds (3.15× throughput)** across five measured repetitions.
 
-[MP4 source](docs/assets/throughput-comparison.mp4) · [Captions](docs/assets/throughput-comparison.vtt) · [One-thread transcript](docs/assets/terminal-1.txt) · [Eight-thread transcript](docs/assets/terminal-8.txt) · [Verification and hashes](docs/assets/terminal-comparison.json)
+[Captions](docs/assets/throughput-comparison.vtt) · [One-thread transcript](docs/assets/terminal-1.txt) · [Eight-thread transcript](docs/assets/terminal-8.txt) · [Verification and hashes](docs/assets/terminal-comparison.json)
 
 ### MRI stage walkthrough
 
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/78fcd69a-8ee5-4aea-88cd-732545ca662e
 
 **32 seconds · real original capstone scan.** The native C++/Qt viewer keeps the original T1 post-contrast MRI visible beside import, normalization, clipping, median filtering, sharpening, region growing, erosion, and dilation. These are actual shared FAST pipeline outputs. Four seconds per stage is presentation timing; the stages finish before playback. Each intensity preview uses its own display range. Erosion and dilation branch independently from the region-growing mask.
 
-[MP4 source](docs/assets/stage-walkthrough.mp4) · [Captions](docs/assets/stage-walkthrough.vtt) · [Transcript](docs/assets/stage-walkthrough.txt) · [Input provenance](docs/assets/stage-provenance.json) · [Capture instructions](docs/demo-production.md)
+[Captions](docs/assets/stage-walkthrough.vtt) · [Transcript](docs/assets/stage-walkthrough.txt) · [Input provenance](docs/assets/stage-provenance.json) · [Capture instructions](docs/demo-production.md)
 
 ## Repository layout
 
