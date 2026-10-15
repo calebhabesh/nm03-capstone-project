@@ -26,7 +26,7 @@ Visible single-run times are **29.32 and 9.61 seconds**. The repeated benchmark 
 
 https://github.com/user-attachments/assets/78fcd69a-8ee5-4aea-88cd-732545ca662e
 
-**32 seconds · real original capstone scan.** The native C++/Qt viewer keeps the original T1 post-contrast MRI visible beside import, normalization, clipping, median filtering, sharpening, region growing, erosion, and dilation. These are actual shared FAST pipeline outputs. Four seconds per stage is presentation timing; the stages finish before playback. Each intensity preview uses its own display range. Erosion and dilation branch independently from the region-growing mask.
+**32 seconds · real original capstone scan.** The native C++ and Qt viewer keeps the original T1 post-contrast MRI visible beside import, normalization, clipping, median filtering, sharpening, region growing, erosion, and dilation. These are actual shared FAST pipeline outputs. Four seconds per stage is presentation timing; the stages finish before playback. Each intensity preview uses its own display range. Erosion and dilation branch independently from the region-growing mask.
 
 [Captions](docs/assets/stage-walkthrough.vtt) · [Transcript](docs/assets/stage-walkthrough.txt) · [Input provenance](docs/assets/stage-provenance.json) · [Capture instructions](docs/demo-production.md)
 
